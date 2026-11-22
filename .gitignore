@@ -1,0 +1,16 @@
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Builds/
+.vs/
+*.csproj
+*.sln
+*.apk
+*.aab
+.DS_Store
+__pycache__/
+# Helsinki map: downloaded by tools/download_map.sh (GitHub release helsinki-map-2017-v1)
+Assets/TerraMap/Resources/Helsinki/*.glb
+Assets/TerraMap/Resources/Helsinki/*.glb.meta

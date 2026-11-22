@@ -1,0 +1,8 @@
+Helsinki 3D reality mesh 2017 (Kolmioverkkomalli koko Helsingistä)
+Source: City of Helsinki (Helsingin kaupunki), https://hri.fi/data/en_GB/dataset/helsingin-3d-kaupunkimalli
+Tile: Helsinki3D_2017_OBJ_672496x2.zip (EPSG:3879 E 25496000-25498000, N 6672000-6674000)
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+
+Changes: detail level L18 only; each 250 m cell's 16 textures packed into one 2048 px JPEG atlas;
+recentred on the tile centre (E 25497000, N 6673000) in east/up/north metres; split into sixteen 500 m GLBs;
+unlit materials. Converted with tools/helsinki_mesh_to_glb.py and split with tools/helsinki_glb_split.py.
